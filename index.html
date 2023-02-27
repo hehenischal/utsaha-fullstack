@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utsaha Academy</title>
+</head>
+<style>
+    html
+    {
+       padding-bottom: none;
+    }
+    body
+    {
+        background-color: rgba(50, 50, 50, .3);
+        padding: none;
+        margin: auto;
+    }
+    h1,h2,form button{
+        color: #84151f;
+    }
+    header
+    {
+        background-color: blue;
+        padding: 5px;
+    }
+    h1
+    {
+        margin: 0 auto;
+        text-align: center;
+        font-size: 400%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight:bolder;
+        text-decoration: dashed black;
+        text-transform: uppercase;
+    }
+    h2
+    {
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 200%;
+        color: white;
+    }
+    form
+    {
+        margin-top:20px;
+        padding-left: 20%;
+    }
+    label
+    {
+        font-size: 1.5em;
+        color: #84151f;
+        font-weight: 1000;
+    }
+    input,select,button,::placeholder
+    {
+        font-size: 1em;
+        background:transparent;
+        padding-top: 5px;
+        color: rgba(255, 0, 0, .5);
+    }
+    input,select,button
+    {
+        border: 2px solid #84151f;
+        border-radius: 5px;
+    }
+    button
+    {
+        text-transform: uppercase;
+        margin:4vh;
+    }
+    input,select,button,:active
+    {
+        color: black;
+    }
+    select
+    {
+        overflow: scroll;
+    }
+    button:hover
+    {
+        color: blue;
+    }
+    button:active
+    {
+        background-color: red;
+
+    }
+    footer
+    {
+        height: 11%;
+        background-color: blue;
+        margin-bottom: 0px;
+        position: absolute;
+        width: 100%;
+        margin:none;
+        bottom: 0%;;
+    }
+    p
+    {
+        text-align: center;
+        font-size: 150%;
+        color: white;
+        bottom: 0px;
+    }
+</style>
+<body>
+    <header>
+        <h1>Utsaha Academy</h1>
+        <h2>Registration Form</h2>
+
+    </header>
+
+    <form action="">
+        <label for="">Full Name:</label><br>
+        <input type="text" placeholder="Nischal Lamichhane" name="" id="input-name" required><br><BR>
+        <label for="">Address</label><br>
+        <input type="text" name="" id="input-address" placeholder="Newroad,Pokhara" required><br><BR>
+        <label for="">Phone Number</label><br>
+        <input type="tel" name="" id="input-number" placeholder="9878189471" required><br><BR>
+        <label for="">Interested Course</label><br>
+        <select name="course" required >
+            <option value="">Frontend</option>
+            <option value="">Backend</option>
+            <option value="">Fullstack</option>
+            <option value="">game development</option>
+            <option value="">Graphic designing</option>
+            <option value="">photography/videography </option>
+            <option value="">others</option>
+        </select><br>
+
+        <button type="submit">submit</button>
+    </form>
+
+    <footer>
+        <p>Copyright &copy; Utsaha Academy 2023</p>
+    </footer>
+
+    
+</body>
+</html>
